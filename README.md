@@ -1,5 +1,5 @@
 # dejavubot
-Starts playing initial D Dejavu from device speakers from robotic vessels, according to the ratio between forward and sideways motion.
+Starts playing initial D Dejavu from device speakers from robotic vessels, according to the ratio between vessel surge (u) and sway (v)
 
 
 ## Starting drift ratio listener+calculator+broadcaster
