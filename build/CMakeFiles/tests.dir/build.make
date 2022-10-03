@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bart/Documents/OpenSail/src
+CMAKE_SOURCE_DIR = /home/bart/Documents/dejavubot/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bart/Documents/OpenSail/build
+CMAKE_BINARY_DIR = /home/bart/Documents/dejavubot/build
 
 # Utility rule file for tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/tests.dir/clean:
 .PHONY : CMakeFiles/tests.dir/clean
 
 CMakeFiles/tests.dir/depend:
-	cd /home/bart/Documents/OpenSail/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bart/Documents/OpenSail/src /home/bart/Documents/OpenSail/src /home/bart/Documents/OpenSail/build /home/bart/Documents/OpenSail/build /home/bart/Documents/OpenSail/build/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bart/Documents/dejavubot/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bart/Documents/dejavubot/src /home/bart/Documents/dejavubot/src /home/bart/Documents/dejavubot/build /home/bart/Documents/dejavubot/build /home/bart/Documents/dejavubot/build/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tests.dir/depend
 

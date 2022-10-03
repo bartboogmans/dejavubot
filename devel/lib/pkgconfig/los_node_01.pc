@@ -1,8 +1,0 @@
-prefix=/home/bart/Documents/OpenSail/devel
-
-Name: los_node_01
-Description: Description of los_node_01
-Version: 0.1.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

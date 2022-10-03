@@ -7,5 +7,5 @@
 # new environment variables
 
 # modified environment variables
-export PKG_CONFIG_PATH="/home/bart/Documents/OpenSail/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
-export PWD='/home/bart/Documents/OpenSail/build'
+export PKG_CONFIG_PATH="/home/bart/Documents/dejavubot/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PWD='/home/bart/Documents/dejavubot/build'

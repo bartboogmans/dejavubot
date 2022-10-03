@@ -1,0 +1,8 @@
+prefix=/home/bart/Documents/dejavubot/install
+
+Name: driftRatioModule1
+Description: Description of driftRatioModule1
+Version: 0.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

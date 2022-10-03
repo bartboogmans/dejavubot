@@ -1,2 +1,2 @@
-los_node_01
--DCATKIN_DEVEL_PREFIX=/home/bart/Documents/OpenSail/devel -DCMAKE_INSTALL_PREFIX=/home/bart/Documents/OpenSail/install -G Unix Makefiles
+driftRatioModule1
+-DCATKIN_DEVEL_PREFIX=/home/bart/Documents/dejavubot/devel -DCMAKE_INSTALL_PREFIX=/home/bart/Documents/dejavubot/install -G Unix Makefiles
