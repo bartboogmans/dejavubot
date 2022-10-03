@@ -1,11 +1,18 @@
 #!/usr/bin/env python
 # license removed for brevity
 import rospy
-from std_msgs.msg import String
+from std_msgs.msg import Float32, String
+from sensor_msgs.msg import NavSatFix
+
+
+
+VESSEL_ID = 'RAS_TN_LB'
 
 def talker():
     pub = rospy.Publisher('chatter', String, queue_size=10)
-    rospy.init_node('talker', anonymous=True)
+    sub_heading = rospy.Subscriber(f'/{VESSEL_ID}/heading_est', Float32, callback_heading)
+    sub_pos = rospy.Subscriber(f'/{VESSEL_ID}/u_ref', NavSatFix, callback_pos)
+    rospy.init_node(f'driftRatioCalc_{VESSEL_ID}', anonymous=False)
     rate = rospy.Rate(10) # 10hz
     while not rospy.is_shutdown():
         hello_str = "hello world %s" % rospy.get_time()
@@ -13,6 +20,13 @@ def talker():
         pub.publish(hello_str)
         rate.sleep()
 
+def callback_heading(data):
+    pass
+    
+def callback_pos(data):
+    pass
+    
+    
 if __name__ == '__main__':
     try:
         talker()
