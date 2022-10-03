@@ -7,5 +7,5 @@ Starts playing initial D Dejavu from device speakers from robotic vessels, accor
 ```shell
 cd Documents/dejavubot/
 source devel/setup.bash
-rosrun los_node_01 los_node_01
+rosrun driftRatioModule1 driftRatioMain1
 ```
