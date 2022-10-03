@@ -2,7 +2,7 @@
 Starts playing initial D Dejavu from device speakers from robotic vessels, according to the ratio between forward and sideways motion.
 
 
-## Starting drift ration calculator
+## Starting drift ratio listener+calculator+broadcaster
 
 ```shell
 cd Documents/dejavubot/
